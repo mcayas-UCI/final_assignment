@@ -1,1 +1,3 @@
 # final_assignment
+
+This repository contains analysis code and data for investigating decision-making behavior using both Signal Detection Theory (SDT) and diffusion modeling techniques. The dataset represents simulated response times and choices from a 2×2×2 experimental design, with factors including Trial Difficulty (Easy vs Hard), Stimulus Type (Simple vs Complex), and Signal Presence (Present vs Absent). The code includes functions to load the data, fit a hierarchical SDT model, and generate delta plots. The SDT model has been adapted to estimate how Stimulus Type and Trial Difficulty influence participants’ sensitivity and bias, check model convergence, and visualize the posterior distributions of the relevant parameters.
